@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your from</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="root">
+        <div id="box-1">
+            <h4>Form Builder</h4>
+            <div id="select-text">
+                <label for="choose">Select Field Type</label>
+                <select name="choose" id="field">
+                    <option value="text">Text Content</option>
+                    <option value="email">Email</option>
+                    <option value="password">Password</option>
+                    <option value="submit">Submit</option>
+                </select>
+            </div>
+
+            <div id="enter-field">
+                <label for="enter">Field Label</label>
+                <input type="text" id="texting" placeholder="Enter field label">
+            </div>
+
+            <button onclick="addInput()">Add Field</button>
+            
+        </div>
+
+        <div id="box-2">
+            <h4>Form Preview</h4>
+            <div id="your-form"></div>
+        </div>
+    </div>
+</body>
+</html>

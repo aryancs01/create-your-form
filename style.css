@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#root{
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(242, 236, 236);
+}
+
+#box-1{
+    width: 45%;
+    height: 45%;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#box-1 button{
+    margin-top: 25px;
+    height: 30px;
+    background-color: rgb(61, 61, 243);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#box-2{
+    width: 45%;
+    height: 45%;
+    background-color: white;
+    padding: 15px;
+    overflow: scroll;
+    
+}
+
+#box-2 h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#box-1 h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#select-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#select-text label{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#select-text select {
+    height: 35px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+#enter-field{
+    display: flex;
+    flex-direction: column;
+}
+
+#enter-field label{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#enter-field input{
+    height: 30px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.struct{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#your-form label{
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+#your-form input{
+    height: 20px;
+}
